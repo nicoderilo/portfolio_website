@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nico's website</title>
+        
+        <link rel="icon" href="./public/mylogoIcon.ico" type="image/ico" sizes="16x16">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./public/main.css"> 
+        <meta content='maximum-scale=1.0, initial-scale=1.0, width=device-width' name='viewport'>
+        <style>
+        
+        </style>
+        <!-- Google cdn fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+         <!-- font awsome CDN  from w3 school link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+              <!-- <div id="divHeader" class="col-12">header</div> -->
+            </div>
+            <section id="nav-bar ms-auto" class="sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./public/mylogo.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars"></i><!--HAMBURGER BUTTON-->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">         
+                          <a class="nav-link" id="navHome" href="#">Home</a>                
+                        </li>
+                        <li class="nav-item">         
+                            <a class="nav-link" id="navProjects" href="#projects">Projects</a>                
+                        </li>
+                        <li class="nav-item">         
+                            <a class="nav-link" id="navLinkedin" href="https://ca.linkedin.com/in/nico-derilo?trk=people-guest_people_search-card">Linkedin</a>                
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="navDownload" href="./public/Nico Derilo R-E-S-U-M-E.docx" download="Nico Derilo R-E-S-U-M-E.docx">Download cv</a>
+                        </li>                                  
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </section> 
+            <div class="row">
+              <div id="left" class="col-md-6">
+                <p id="myGreetings">Hello! I'm</p>
+                <p id="myName">Nico Derilo</p>
+                <p id="myTitle">I'm a full stack developer</p>
+                <button id="myButton" type="button"><a href="./public/Nico Derilo R-E-S-U-M-E.pdf" target="_blank">Hire Me</button></a>
+              </div>
+            
+              <div id="right" class="col-md-6">
+                  <img id="myImage" class="img-fluid" src="./public/portfoli picture2.png">
+
+              </div>
+            </div>
+
+            <!--        Cards / Projects       -->
+        <section id="projects">
+            <div class="row footerRow">
+                <!-- <img id="footerImage" src="./public/footerimage.png" class="bottom-img"> -->
+                <div id="divFooter" class="col-12">
+                    <div class="row row-cols-1 row-cols-md-3 g-1">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./public/Workshop1.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">School Project 1 (website)</h5>
+                              <p class="card-text">- Visual Studio Code</p>
+                              <p class="card-text">- HTML, CSS, Javascript</p>
+                              <p class="card-text">- NodeJS, ejs</p>
+                              <p class="card-text">- MySql, MongoDb</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">June 2021</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./public/Workshop4.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">School Project 2 (website)</h5>
+                              <p class="card-text">- Visual Studio</p>
+                              <p class="card-text">- C# ASP.net MVC</p>
+                              <p class="card-text">- Microsoft SQL Server</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">August 2021</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./public/Workshop5.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">School Project 3 (Desktop app)</h5>
+                              <p class="card-text">- Visual Studio</p>
+                              <p class="card-text">- C#, Database first approach</p>
+                              <p class="card-text">- Microsoft SQL Server</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">August 2021</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col"> <!--Workshop6 -->
+                            <div class="card h-100">
+                              <img src="./public/Workshop6.PNG" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">School Project 4 (Desktop app)</h5>
+                                <p class="card-text">- IntelliJ, Scene Builder</p>
+                                <p class="card-text">- JavaFx</p>
+                                <p class="card-text">- Xampp MySql</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">October 2021</small>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col"> <!--Workshop7 and 8 -->
+                            <div class="card h-100">
+                              <img src="./public/Workshop8.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">School Project 5 (Android app)</h5>
+                                <p class="card-text">- Android Studio</p>
+                                <p class="card-text">- Java, Restful APIs</p>
+                                <p class="card-text">- Xampp MySql</p>                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">October 2021</small>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col"> <!--On going -->
+                            <div class="card h-100">
+                              <img src="./public/inprogress.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Time In/Out app( Adnroid app)</h5>
+                                <p class="card-text"></p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">not availble</small>
+                              </div>
+                            </div>
+                        </div>
+                       </div> <!--cards row end -->
+                       
+                </div><!--divFooter end -->
+                <p id="copyright">Website Created by Nico Derilo   |   Copyright 2021 &copy;</p>
+            </div>
+          </div>
+        </section>       
+
+        <script src="smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+    </body>
+</html>
