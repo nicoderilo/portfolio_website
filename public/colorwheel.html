@@ -47,7 +47,7 @@
         border-radius: 50%;
         border: 10px solid #fff;
         overflow: hidden;
-        transition: all ease 7s; /* duration of spin*/
+        transition: all ease 10s; /* duration of spin*/
     }
     span {
         width: 50%;
@@ -58,13 +58,13 @@
     }
     .span1 {
         clip-path: polygon(0 92%, 100% 50%, 0 8%);
-        background-color: yellow;
+        background-color: red;
         top: 120px;
         left: 0;
     }
     .span2 {
         clip-path: polygon(100% 92%, 0 50%, 100% 8%);
-        background-color: red;
+        background-color: yellow;
         top: 120px;
         right: 0;
     }
@@ -246,7 +246,7 @@
           element.classList.remove('animate')
           setTimeout(function(){
               element.classList.add('animate');
-          }, 7000); //5000 = 5 seconds
+          }, 10000); //5000 = 5 seconds
       }
   </script>
 </body>
