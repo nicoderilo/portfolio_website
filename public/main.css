@@ -85,9 +85,9 @@ body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
         body{           
             width: 100%;
             height: 100%;
-            /* background-image: linear-gradient(to right,#ffffff,#aebaff);  */
+            /* background-image: linear-gradient(to right,#ffffff,#aefaff);  */
             background-image: linear-gradient(to right,#ffffff,#c2cfff); 
-            /* background-image: linear-gradient(to right,#ffffff,#cde7ff); */
+            /* background-image: linear-gradient(to right,#fa96009d,#0084ff71); */
         }  
         #myGreetings {
             color:#031366;
