@@ -76,18 +76,20 @@ body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
             text-align: center;
             /* background-color: aliceblue; */
             /* border: red 1px solid;   */
-            background-image: url("../public/school.png");
+            background-image: url("school.png"); /*test in safari for new session, ccs wont update for images*/
+            /* background-image: url("https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fpublic%2Fschool.png"); */
             /* background-image: url("https://previews.123rf.com/images/kudryashka/kudryashka1807/kudryashka180700529/114803421-back-to-school-background-for-your-design-vector-illustration.jpg"); */
             background-size: cover;
             /* opacity: 0.2; */
         }
-        .education h4,h6 {
+        .education h6 {
             /* padding-left: 10%; */
-            color: rgb(56, 159, 228); 
+            color: rgb(228, 137, 34); 
             /* opacity: 100;                      */
         }
         .education h4 {
             padding-top: 2%;
+            color: rgb(56, 159, 228);
             /* opacity: 100; */
                                 
         }
@@ -191,14 +193,11 @@ body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
             text-align: center;
             /* color: rgb(42, 122, 187); */
             color: #ee7a2d;
-            font-size: 2em;
-            /* border: #031366 solid 1px; */
-            
+            font-size: 2em;            
             margin: auto;
             padding-top: 30px;
             align-items: center;
             width: 80%;
-            /* border-top: #70a9df solid 2px; */
             font-family: 'Ubuntu', sans-serif;
         }
         .card-title, .card-text {
