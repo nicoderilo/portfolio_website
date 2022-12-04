@@ -1,0 +1,218 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,li, dl, dt, dd, form, a, fieldset, input, th, td
+        {
+            margin: 0; padding: 0; border: 0; outline: none;
+            
+        }
+     
+        .navbar {            
+            padding-top: 20px;
+            margin-bottom: 30px;
+            background-image: linear-gradient(to right,#ffffff,#c2cfff); 
+            
+        }
+        .navbar-brand img {
+            height: 30px;
+            padding-left: 40px;
+        }
+        .nav-item {
+            margin-right: 30px;           
+            font-family: 'Ubuntu', sans-serif;
+            
+        }     
+        #navHome {
+            color: rgb(110, 110, 110);
+        } 
+        #navHome:hover {
+            color: orange;
+        } 
+        #navProjects:hover {
+            color: orange;
+        }  
+        #navGithub:hover {
+            color: orange;
+        }  
+
+        #navLinkedin:hover {
+            color: orange;
+        }  
+
+
+        #navDownload {            
+            border-radius: 30px;
+            border: 0px ;
+            color: white;
+            background-image: linear-gradient(to right,#ffbb00,#ff5e00);            
+            /* hoffset voffset blur spread color */
+            box-shadow: -7px 6px 10px 0px #f59506;            
+            /*top right bottom left */
+            padding: 6px 30px 6px 30px;
+           
+       } 
+
+        #left {
+            
+            top:0px;
+            right:0px;
+            bottom:0px;
+            left:0px;         
+        }
+        #right {
+            /* border:orange 1px solid;   */
+            display: flex;
+            justify-content: center;
+        }
+      
+        .myImage {
+            width: 80%;
+            margin: auto;
+            /* padding-left: 40px; */
+        }
+        .education {
+            margin-top: 6%;
+            /* margin-bottom: 500%; */
+            /* padding: 80%; */
+            padding-top: 4%;
+            padding-bottom: 5%;
+            text-align: center;
+            /* background-color: aliceblue; */
+            /* border: red 1px solid;   */
+            background-image: url("school.png"); /*test in safari for new session, ccs wont update for images*/
+            /* background-image: url("https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fpublic%2Fschool.png"); */
+            /* background-image: url("https://previews.123rf.com/images/kudryashka/kudryashka1807/kudryashka180700529/114803421-back-to-school-background-for-your-design-vector-illustration.jpg"); */
+            background-size: cover;
+            /* opacity: 0.2; */
+        }
+        /* .education h6 {
+            color: rgb(228, 137, 34); 
+        }
+        .education h4 {
+            padding-top: 2%;
+            color: rgb(56, 159, 228);
+                                
+        } */
+        .courseName {
+            /* padding-left: 10%; */
+            /* color: rgb(228, 137, 34);  */
+            color: rgb(26, 178, 238); 
+            font-size: 1.8em;
+            /* opacity: 100;                      */
+        }
+        .schoolName {
+            /* padding-top: 2%; */
+            color: rgb(231, 151, 45);
+            font-size: 1em;
+            /* opacity: 100; */
+                                
+        }
+
+        body{           
+            width: 100%;
+            height: 100%;
+            /* background-image: linear-gradient(to right,#ffffff,#aefaff);  */
+            background-image: linear-gradient(to right,#ffffff,#c2cfff); 
+            /* background-image: linear-gradient(to right,#fa96009d,#0084ff71); */
+            /* background-color: rgb(242, 248, 255); */
+        }  
+        #myGreetings {
+            color:#031366;
+            font-size: 3.1em;            
+            /* font-family: 'Berlin Sans FB Regular','Courier New', Courier, monospace; */
+            font-family: 'Ubuntu', sans-serif;
+            margin-top: 20%;
+            /* margin-left: 18%; */
+            margin-bottom: 0%;
+        }           
+        #myName {
+            color:#ff8f34;
+            font-size: 4em;
+            /* font-family: 'Berlin Sans FB Regular','Courier New', Courier, monospace; */
+            font-family: 'Ubuntu', sans-serif;
+            /* margin-top: 10%; */
+            /* margin-left: 18%; */
+            margin-top: -4%;
+            margin-bottom: -3%;
+        }
+        /* Im a full stack developer */
+        #myTitle {
+            color:#4f63c5;
+            font-size: 1.6em;            
+            font-family: 'Ubuntu', sans-serif;
+            
+        }
+        #myButton {
+            /* font-family: 'Berlin Sans FB Regular','Courier New', Courier, monospace; */
+            font-family: 'Ubuntu', sans-serif;
+            border-radius: 20px;
+            border: 0px ;
+            color: white;
+            background-image: linear-gradient(to right,#ffbb00,#ff5e00);            
+            margin-top: 20px;
+            /* hoffset voffset blur spread color */
+            box-shadow: -7px 6px 10px 0px #f59506;            
+            /*top right bottom left */
+            padding: 7px 33px 7px 33px;
+            text-decoration: none;
+        }
+        
+        #divFooter {
+            /* border:blue 1px solid; */
+            /* background-image: linear-gradient(to right,#8c94ff,#9906ee); */
+            /* height: 70px;    */
+            margin-top: 60px;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* #footerImage{
+            width:100%;
+        } */
+        .col {
+            margin-bottom: 2em;
+        }
+        .card {
+            border: solid 0px;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            
+            box-shadow: -7px 6px 10px 0px #b9b9b9; 
+        }
+        .card img {
+            padding: 10px;
+        }
+        #copyright {
+            border-top: solid rgb(207, 207, 207) 1px;
+            padding-top: 20px;
+            width: 95%;
+            padding-bottom: 10px;
+            margin: auto;
+        }
+        .row {
+            text-align: center;
+        }
+      
+        a:link, a:visited {
+            text-decoration: none;
+            color: white;
+        }
+        #projects {
+            /* margin-top: 50px; */
+            padding-top: 50px;
+        }
+        .sectionTitle {
+            text-align: center;
+            /* color: rgb(42, 122, 187); */
+            color: #ee7a2d;
+            font-size: 2em;            
+            margin: auto;
+            padding-top: 30px;
+            align-items: center;
+            width: 80%;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .card-title, .card-text {
+            /* font-family: 'Berlin Sans FB Regular','Courier New', Courier, monospace; */
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(56, 63, 82);
+        }
